@@ -1,4 +1,5 @@
-Send: M503
+Send: M501
+Recv: echo:V87 stored settings retrieved (629 bytes; crc 37837)
 Recv: echo:; Linear Units:
 Recv: echo:  G21 ; (mm)
 Recv: echo:; Temperature Units:
@@ -18,7 +19,7 @@ Recv: echo:  M205 B20000.00 S0.00 T0.00 J0.01
 Recv: echo:; Home offset:
 Recv: echo:  M206 X0.00 Y0.00 Z0.00
 Recv: echo:; Auto Bed Leveling:
-Recv: echo:  M420 S0 Z10.00 ; Leveling OFF
+Recv: echo:  M420 S0 Z0.00 ; Leveling OFF
 Recv: echo:  G29 W I0 J0 Z0.17000
 Recv: echo:  G29 W I1 J0 Z-0.06500
 Recv: echo:  G29 W I2 J0 Z-0.33750
